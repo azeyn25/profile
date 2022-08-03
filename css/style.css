@@ -1,0 +1,123 @@
+#p_photo {
+    max-height: 25%;
+    max-width: 25%;
+    position: relative;
+    left: 60px;
+    top: 2px;
+    border-radius: 5%;
+}
+
+body {
+    background-image: url(../images/DSC_1145.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(226, 114, 86);
+    font-size: large;
+    font-weight: bold;
+    background-size: cover
+}
+
+p {
+    font-family: 'Anek Latin', sans-serif;
+    color: #000000;
+    background-color: rgba(105, 120, 133, 0.543);
+    background-size: contain;
+    font-size: 25;
+    font-weight: bold;
+    position: static;
+    right: 60px;
+    left: auto;
+    line-height: 40px;
+    padding: 1%;
+}
+
+h1 {
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 77, 68);
+    font-size: 20px;
+    font-weight: light;
+    padding-left: 20px;
+}
+
+ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aquamarine;
+    padding-left: 40px;
+}
+
+.website {
+    background-color: rgba(151, 203, 186, 0.615);
+    border-radius: 40%;
+    width: 170px;
+    margin: auto;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+}
+
+.follow {
+    width: 400px;
+    margin: 30px, 20px, 0 px, 0 px, ;
+    background-color: #c0a7a77c;
+}
+
+a {
+    color: #000000;
+    margin: auto;
+}
+
+.myButton {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color: #599bb3;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 45px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #408c99;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+@media (max-widthµ: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+}
